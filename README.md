@@ -17,39 +17,44 @@ A File Integrity Monitor using PowerShell is a script that continuously compares
 
 <p align="center">
 Launch the utility: <br/>
-![](images/p1.png)
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+ Everything needed for the File Integrity Check:  <br/>
+![](images/p1.png)
+
+<br />
+<br />
+
+
+Targeting Folder with valuable information:  <br/>
+![](images/p3.png)
+<br />
+<br />
+
+Run the MakeBaselineHash to get the original untampered hashes of files:  <br/>
+![](images/p4.png)
+<br />
+<br />
+
+Baseline hashes:  <br/>
+![](images/p5.png)
+<br />
+<br />
+
+Perpetrator goes into the system and steals your address without consent:  <br/>
+![](images/p6.png)
+<br />
+<br />
+
+Run the CheckFileIntegrity command and check what files have been altered:  <br/>
+![](images/p7.png)
+<br />
+<br />
+
+The previous command shows that the "PII.txt"'s hash has been changed and was notified:  <br/>
+![](images/p8.png)
+<br />
+<br />
+
+
+
+Inspired by Zach<br/>
