@@ -1,5 +1,9 @@
 <h1>File Integrity Monitor</h1>
+<br />
 
+![](images/intro.png)
+
+<br />
 <h2>Description</h2>
 A File Integrity Monitor using PowerShell is a script that continuously compares the hash values of files against a baseline, alerting administrators to unauthorized changes. It helps maintain data integrity and detect potential security breaches.
 <br />
