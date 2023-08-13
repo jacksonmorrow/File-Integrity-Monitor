@@ -1,7 +1,7 @@
 <h1>File Integrity Monitor</h1>
 <br />
 
-![](images/intro.pdf)
+![](images/intro.png)
 
 <br />
 <h2>Description</h2>
